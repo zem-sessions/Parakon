@@ -1,0 +1,100 @@
+name: IG_BigBrazierCeilingVanilla
+piecehammer: odin_hammer
+m_name: $IG_BigBrazierCeilingVanilla
+sizeMultiplier: 1
+m_description: $IG_BigBrazierCeilingVanilla_desc
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: $piece_forge
+piecehammerCategory: Decors
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort:
+  comfort: 1
+  comfortGroup: Fire
+  comfortObject: &o0
+    transform:
+    - []
+    - []
+    - []
+    - []
+    - []
+    - - []
+      - []
+      - []
+    layer: 10
+    active: false
+    activeSelf: false
+    activeInHierarchy: false
+    isStatic: false
+    tag: Untagged
+    scene:
+      handle: -12
+      path: DontDestroyOnLoad
+      name: DontDestroyOnLoad
+      isLoaded: true
+      buildIndex: -1
+      isDirty: false
+      rootCount: 16
+      isSubScene: false
+    sceneCullingMask: 16140901064495857664
+    gameObject: *o0
+    name: _enabled_high
+    hideFlags: None
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: true
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: true
+canBeRemoved: true
+notOnWood: false
+wearNTearData:
+  health: 100
+  damageModifiers:
+    m_blunt: Normal
+    m_slash: Normal
+    m_pierce: Normal
+    m_chop: Normal
+    m_pickaxe: Normal
+    m_fire: Immune
+    m_frost: Immune
+    m_lightning: Normal
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: false
+  noSupportWear: true
+  supports: true
+  triggerPrivateArea: true
+  materialType: Iron
+craftingStationData: 
+cSExtensionData: 
+cSExtensionDataList: 
+contData: 
+smelterData: 
+cookingStationData: 
+beehiveData: 
+fermStationData: 
+sapData: 
+incineratorData: 
+fireplaceData:
+  StartFuel: 7
+  MaxFuel: 30
+  SecPerFuel: 86400
+  InfiniteFuel: false
+  FuelType: Coal
+  IgniteInterval: 0
+  IgniteChance: 0
+  IgniteSpread: 0
+teleportWorldData: 
+plantData: 
+shipData: 
+build:
+- Chain:3:0:True
+- Iron:10:0:True
+- Coal:15:0:True

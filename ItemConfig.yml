@@ -1,0 +1,220 @@
+﻿groups:
+  gMeadComponent:
+  - MeadBaseBugRepellent
+  - MeadBaseBzerker
+  - MeadBaseEitrLingering
+  - MeadBaseEitrMinor
+  - MeadBaseFrostResist
+  - MeadBaseHasty
+  - MeadBaseHealthLingering
+  - MeadBaseHealthMajor
+  - MeadBaseHealthMedium
+  - MeadBaseHealthMinor
+  - MeadBaseLightFoot
+  - MeadBasePoisonResist
+  - MeadBaseStaminaLingering
+  - MeadBaseStaminaMedium
+  - MeadBaseStaminaMinor
+  - MeadBaseStrength
+  - MeadBaseSwimmer
+  - MeadBaseTamer
+  - MeadBaseTasty
+  gMeadProduct:
+  - MeadBugRepellent
+  - MeadBzerker
+  - MeadEitrLingering
+  - MeadEitrMinor
+  - MeadFrostResist
+  - MeadHasty
+  - MeadHealthLingering
+  - MeadHealthMajor
+  - MeadHealthMedium
+  - MeadHealthMinor
+  - MeadLightfoot
+  - MeadPoisonResist
+  - MeadStaminaLingering
+  - MeadStaminaMedium
+  - MeadStaminaMinor
+  - MeadStrength
+  - MeadSwimmer
+  - MeadTamer
+  - MeadTasty
+  - MeadTrollPheromones
+  gFoodComponent:
+  - Blueberries
+  - Cloudberry
+  - Carrot
+  - Fiddleheadfern
+  - Honey
+  - Mushroom
+  - MushroomBlue
+  - MushroomBzerker
+  - MushroomJotunPuffs
+  - MushroomMagecap
+  - MushroomOmelette
+  - MushroomSmokePuff
+  - MushroomYellow
+  - Onion
+  - Pukeberries
+  - Raspberry
+  - RottenMeat
+  - RoyalJelly
+  - SeekerAspic
+  - Vineberry
+  - WolfMeat
+  - VoltureMeat
+  - SerpentMeat
+  - LoxMeat
+  - HareMeat
+  - DeerMeat
+  - ChickenMeat
+  - BugMeat
+  - AsksvinMeat
+  - BoneMawSerpentMeat
+  - NeckTail
+  gFoodProduct:
+  - BarleyWine
+  - BlackSoup
+  - BloodPudding
+  - BoarJerky
+  - Bread
+  - CarrotSoup
+  - CookedAsksvinMeat
+  - CookedBoneMawSerpentMeat
+  - CookedBugMeat
+  - CookedChickenMeat
+  - CookedDeerMeat
+  - CookedEgg
+  - CookedHareMeat
+  - CookedLoxMeat
+  - CookedMeat
+  - CookedVoltureMeat
+  - CookedWolfMeat
+  - DeerStew
+  - Eyescream
+  - FeastAshlands
+  - FeastBlackforest
+  - FeastMeadows
+  - FeastMistlands
+  - FeastMountains
+  - FeastOceans
+  - FeastPlains
+  - FeastSwamps
+  - FierySvinstew
+  - FishAndBread
+  - FishCooked
+  - FishWraps
+  - HoneyGlazedChicken
+  - LoxPie
+  - MagicallyStuffedShroom
+  - MarinatedGreens
+  - MashedMeat
+  - MeatPlatter
+  - MinceMeatSauce
+  - MisthareSupreme
+  - NeckTailGrilled
+  - OnionSoup
+  - PiquantPie
+  - QueensJam
+  - RoastedCrustPie
+  - Salad
+  - Sausages
+  - ScorchingMedley
+  - SerpentMeatCooked
+  - SerpentStew
+  - ShocklateSmoothie
+  - SizzlingBerryBroth
+  - SparklingShroomshake
+  - SpicyMarmalade
+  - TurnipStew
+  - WolfJerky
+  - WolfMeatSkewer
+  - YggdrasilPorridge
+  gActualOre:
+  - FlametalOreNew
+  - BlackMetalScrap
+  - SilverOre
+  - IronOre
+  - IronScrap
+  - TinOre
+  - CopperScrap
+  - CopperOre
+  gPlentifulDrops:
+  - Stone
+  - Wood
+  - RoundLog
+  - FineWood
+  - Tar
+  - Flint
+  - Grausten
+  - BlackMarble
+  - YggdrasilWood
+  - Blackwood
+
+# Example ItemConfig.yml
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Predefined groups:
+# all, ore, metal, food, potions, woods, trophy, boss trophy, valuable, seed, crop, stackable.
+# pants, chest, helmet, cape, armor.
+# axes, clubs, knives, pickaxes, polearms, spears, swords, bows, crossbows, weapon, arrows, bolts, ammo.
+# round shield, tower shield, shield.
+# special (fishing rod and megingjord), tool, equipment.
+
+# Things you can change: amount, weight, weight factor, stack, stack factor, pickup, floating, teleportable, loss.
+# Things you can configure per world level: amount, pickup, teleportable, loss.
+
+all:
+  floating: true
+
+stackable:
+  stack factor: 2.0
+
+coins:
+  weight factor: 0.33
+  stack: 3000
+
+metal:
+  stack: 30
+
+ore:
+  stack: 30
+
+ammo:
+  stack factor: 1.0
+
+woods:
+  stack: 100
+
+trophy:
+  stack: 100
+
+boss trophy:
+  stack: 100
+
+potions:
+  stack: 12
+#---  
+gPlentifulDrops:
+  amount: 1.5
+
+gMeadProduct:
+  stack: 12
+
+gMeadComponent:
+  stack: 10
+
+food:
+  stack factor: 1.0
+#---
+TrophyDragonQueen:
+  amount: 0
+  pickup: false
+TrophyGoblinKing:
+  amount: 0
+  pickup: false
+TrophySeekerQueen:
+  amount: 0
+  pickup: false
+TrophyFader:
+  amount: 0
+  pickup: false

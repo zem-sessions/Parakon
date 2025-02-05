@@ -1,0 +1,15 @@
+name: Recipe_FishingRod
+clonePrefabName: FishingRod
+craftingStation: $piece_workbench
+minStationLevel: 5
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- FineWood:20:2:True
+- LinenThread:12:4:True
+- IronNails:8:2:True

@@ -1,0 +1,143 @@
+timezone: Central Standard Time
+# Jobs checked every minute.
+interval: 10
+discordConnector: true
+join:
+  - command: say Welcome to Parakon, <name>!
+    log: true
+jobs:
+  #Restart the server every morning @ ~4am.
+  #  #Alert players.
+  - command: say Warning - Server Restart in 5 Minutes!
+    schedule: "55 3 * * *"
+  - command: say Warning - Server Restart in 4 Minutes!
+    schedule: "56 3 * * *"
+  - command: say Warning - Server Restart in 3 Minutes!
+    schedule: "57 3 * * *"
+  - command: say Warning - Server Restart in 2 Minutes!
+    schedule: "58 3 * * *"
+  - command: say Warning - Server Restart in 1 Minutes!
+    schedule: "59 3 * * *"
+  - command: save
+    schedule: "59 3 * * *"
+  #Recycle the world every Monday @ ~6am.
+  #Alert players.
+  - command: say Warning - ♻ World Recycling ♻ in 5 Minutes!
+    schedule: "55 5 */10 * 1"
+  - command: say Warning - ♻ World Recycling ♻ in 4 Minutes!
+    schedule: "56 5 */10 * 1"
+  - command: say Warning - ♻ World Recycling ♻ in 3 Minutes!
+    schedule: "57 5 */10 * 1"
+  - command: say Warning - ♻ World Recycling ♻ in 2 Minutes!
+    schedule: "58 5 */10 * 1"
+  - command: say Warning - ♻ World Recycling ♻ in 1 Minutes!
+    schedule: "59 5 */10 * 1"
+  - command: backup
+    schedule: "59 5 */10 * 1"
+  #Meadows
+  - command: say Recycling... Meadows
+    schedule: "0 6 */10 * *"
+  - command: zones_reset safeZones=4 biomes=Meadows start
+    schedule: "0 6 */10 * *"
+  - command: chests_reset TreasureChest_meadows looted
+    schedule: "0 6 */10 * *"
+  - command: chests_reset TreasureChest_meadows_buried looted
+    schedule: "0 6 */10 * *"
+  #BlackForest
+  - command: say Recycling... BlackForest
+    schedule: "1 6 */10 * *"
+  - command: zones_reset safeZones=4 biomes=BlackForest start
+    schedule: "1 6 */10 * *"
+  - command: chests_reset TreasureChest_blackforest looted
+    schedule: "1 6 */10 * *"
+  - command: chests_reset TreasureChest_fCrypt looted
+    schedule: "1 6 */10 * *"
+  - command: chests_reset TreasureChest_forestcrypt looted
+    schedule: "1 6 */10 * *"
+  - command: chests_reset TreasureChest_forestcrypt_hildir looted
+    schedule: "1 6 */10 * *"
+  - command: chests_reset TreasureChest_trollcave looted
+    schedule: "1 6 */10 * *"
+  #Ocean
+  - command: say Recycling... Ocean
+    schedule: "2 6 */10 * *"
+  - command: zones_reset safeZones=4 biomes=Ocean start
+    schedule: "2 6 */10 * *"
+  - command: chests_reset shipwreck_karve_chest looted
+    schedule: "2 6 */10 * *"
+  #Swamp
+  - command: say Recycling... Swamp
+    schedule: "3 6 */10 * *"
+  - command: zones_reset safeZones=4 biomes=Swamp start
+    schedule: "3 6 */10 * *"
+  - command: chests_reset TreasureChest_sunkencrypt looted
+    schedule: "3 6 */10 * *"
+  - command: chests_reset TreasureChest_swamp looted
+    schedule: "3 6 */10 * *"
+  #Mountain
+  - command: say Recycling... Mountain
+    schedule: "4 6 */10 * *"
+  - command: zones_reset safeZones=4 biomes=Mountain start
+    schedule: "4 6 */10 * *"
+  - command: chests_reset TreasureChest_mountaincave looted
+    schedule: "4 6 */10 * *"
+  - command: chests_reset TreasureChest_mountaincave_hildir looted
+    schedule: "4 6 */10 * *"
+  - command: chests_reset TreasureChest_mountains looted
+    schedule: "4 6 */10 * *"
+  #Plains
+  - command: say Recycling... Plains
+    schedule: "5 6 */10 * *"
+  - command: zones_reset safeZones=4 biomes=Plains start
+    schedule: "5 6 */10 * *"
+  - command: chests_reset TreasureChest_heath looted
+    schedule: "5 6 */10 * *"
+  - command: chests_reset TreasureChest_heath_hildir looted
+    schedule: "5 6 */10 * *"
+  - command: chests_reset TreasureChest_plains_stone looted
+    schedule: "5 6 */10 * *"
+  - command: chests_reset TreasureChest_plainsfortress_hildir looted
+    schedule: "5 6 */10 * *"
+  #Mistlands
+  - command: say Recycling... Mistlands
+    schedule: "6 6 */10 * *"
+  - command: zones_reset safeZones=4 biomes=Mistlands start
+    schedule: "6 6 */10 * *"
+  - command: chests_reset TreasureChest_dvergr_loose_stone looted
+    schedule: "6 6 */10 * *"
+  - command: chests_reset TreasureChest_dvergrtower looted
+    schedule: "6 6 */10 * *"
+  - command: chests_reset TreasureChest_dvergrtown looted
+    schedule: "6 6 */10 * *"
+  #Ashlands
+  - command: say Recycling... Ashlands
+    schedule: "7 6 */10 * *"
+  - command: zones_reset safeZones=4 biomes=Ashlands start
+    schedule: "7 6 */10 * *"
+  - command: chests_reset TreasureChest_ashland_stone looted
+    schedule: "7 6 */10 * *"
+  - command: chests_reset TreasureChest_charredfortress looted
+    schedule: "7 6 */10 * *"
+  #Complete
+  - command: say <color=green>Recycling... Complete
+    schedule: "9 6 */10 * *"
+  - command: say Recycling... Complete
+    schedule: "9 6 */10 * *"
+zone:
+  #Every 7-14 days, ensure things are refreshed properly.
+  - command: vegetation_reset rock4_copper terrain=20 zone=<i>,<j> start
+    schedule: "0 * */20 * *"
+    bannedObjects: rock4_copper
+    biomes: BlackForest
+  - command: vegetation_reset silvervein terrain=30 zone=<i>,<j> start
+    schedule: "1 * */20 * *"
+    bannedObjects: silvervein
+    biomes: Mountain
+  #- command: locations_reset Crypt2,Crypt3,Crypt4,SunkenCrypt4,MountainCave02,Mistlands_DvergrTownEntrance1,Mistlands_DvergrTownEntrance2 zone=<i>,<j> start
+  #  schedule: "0 * */14 * *"
+  #  avoidPlayers: true
+  #  locations: Crypt2,Crypt3,Crypt4,SunkenCrypt4,MountainCave02,Mistlands_DvergrTownEntrance1,Mistlands_DvergrTownEntrance2
+  #- command: locations_reset GoblinCamp2,TarPit1,TarPit2,TarPit3 zone=<i>,<j> start
+  #  schedule: "0 * */14 * *"
+  #  avoidPlayers: true
+  #  locations: GoblinCamp2,TarPit1,TarPit2,TarPit3
