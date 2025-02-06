@@ -206,15 +206,25 @@ gMeadComponent:
 food:
   stack factor: 1.0
 #---
+#enable feb 21st
 TrophyDragonQueen:
   amount: 0
   pickup: false
+  weight: 500
+  loss: true
 TrophyGoblinKing:
   amount: 0
   pickup: false
+  weight: 500
+  loss: true
+#enable mar 7
 TrophySeekerQueen:
   amount: 0
   pickup: false
+  weight: 500
+  loss: true
 TrophyFader:
   amount: 0
   pickup: false
+  weight: 500
+  loss: true

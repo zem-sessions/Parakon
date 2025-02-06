@@ -2,7 +2,7 @@ name: BCW_CoreWood_FencePillar
 piecehammer: Hammer
 m_name: $bcw_corewood_fencepillar
 sizeMultiplier: 1
-m_description: 'Reinforced - This structure has increased health.'
+m_description: '<color=green>Reinforced'
 customIcon: 
 clonePrefabName: 
 material: 

@@ -2,7 +2,7 @@ name: wood_fence
 piecehammer: Hammer
 m_name: $piece_woodfence
 sizeMultiplier: 1
-m_description: 'Reinforced.'
+m_description: '<color=green>Reinforced'
 customIcon: 
 clonePrefabName: 
 material: 

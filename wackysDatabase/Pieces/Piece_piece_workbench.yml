@@ -44,7 +44,7 @@ wearNTearData:
 craftingStationData:
   cStationCustomIcon: 
   discoveryRange: 4
-  buildRange: 20
+  buildRange: 30
   craftRequiresRoof: false
   craftRequiresFire: false
   showBasicRecipes: true

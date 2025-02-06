@@ -2,7 +2,7 @@ name: piece_sharpstakes
 piecehammer: Hammer
 m_name: $piece_sharpstakes
 sizeMultiplier: 1
-m_description: 'Reinforced.'
+m_description: '<color=green>Reinforced'
 customIcon: 
 clonePrefabName: 
 material: 

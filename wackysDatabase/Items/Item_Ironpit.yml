@@ -1,7 +1,7 @@
 name: Ironpit
 m_weight: 10
 m_name: $item_ironpit
-m_description: $item_ironpit_description
+m_description: '<color=green>Teleportable'
 clonePrefabName: 
 mockName: 
 customIcon: 

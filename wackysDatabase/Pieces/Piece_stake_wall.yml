@@ -2,7 +2,7 @@ name: stake_wall
 piecehammer: Hammer
 m_name: $piece_stakewall
 sizeMultiplier: 1
-m_description: 'Reinforced.'
+m_description: '<color=green>Reinforced'
 customIcon: 
 clonePrefabName: 
 material: 
