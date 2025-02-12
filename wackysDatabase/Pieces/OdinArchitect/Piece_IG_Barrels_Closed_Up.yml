@@ -2,7 +2,7 @@ name: IG_Barrels_Closed_Up
 piecehammer: Hammer
 m_name: $IG_Barrels_Closed_Up
 sizeMultiplier: 1
-m_description: $IG_Barrels_Closed_Up_desc
+m_description: '$IG_Barrels_Closed_Up_desc\n<color=red>⚠️ Modded Storage Container</color>'
 customIcon: 
 clonePrefabName: 
 material: 
@@ -11,7 +11,7 @@ craftingStation: $piece_workbench
 piecehammerCategory: Architect III
 minStationLevel: 1
 amount: 1
-disabled: true
+disabled: false
 adminonly: false
 comfort: 
 groundPiece: false
@@ -60,5 +60,5 @@ teleportWorldData:
 plantData: 
 shipData: 
 build:
-- BronzeNails:15:0:True
-- FineWood:6:0:True
+- FineWood:10:1:True
+- BronzeNails:6:1:True

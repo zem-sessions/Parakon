@@ -72,6 +72,15 @@
   - AsksvinMeat
   - BoneMawSerpentMeat
   - NeckTail
+  gMealProduct:
+  - FeastAshlands
+  - FeastBlackforest
+  - FeastMeadows
+  - FeastMistlands
+  - FeastMountains
+  - FeastOceans
+  - FeastPlains
+  - FeastSwamps
   gFoodProduct:
   - BarleyWine
   - BlackSoup
@@ -92,14 +101,6 @@
   - CookedWolfMeat
   - DeerStew
   - Eyescream
-  - FeastAshlands
-  - FeastBlackforest
-  - FeastMeadows
-  - FeastMistlands
-  - FeastMountains
-  - FeastOceans
-  - FeastPlains
-  - FeastSwamps
   - FierySvinstew
   - FishAndBread
   - FishCooked
@@ -164,10 +165,11 @@
 # Things you can configure per world level: amount, pickup, teleportable, loss.
 
 all:
-  floating: true
+  floating: yes
 
 stackable:
   stack factor: 2.0
+  weight factor: 0.75
 
 coins:
   weight factor: 0.33
@@ -195,36 +197,31 @@ potions:
   stack: 12
 #---  
 gPlentifulDrops:
-  amount: 1.5
+  amount: 1.15
 
 gMeadProduct:
   stack: 12
 
 gMeadComponent:
   stack: 10
-
-food:
-  stack factor: 1.0
+  
+gFoodComponent:
+  stack factor: 2.0
+  
+gFoodProduct:
+  stack: 20
 #---
 #enable feb 21st
 TrophyDragonQueen:
   amount: 0
-  pickup: false
   weight: 500
-  loss: true
 TrophyGoblinKing:
   amount: 0
-  pickup: false
   weight: 500
-  loss: true
 #enable mar 7
 TrophySeekerQueen:
   amount: 0
-  pickup: false
   weight: 500
-  loss: true
 TrophyFader:
   amount: 0
-  pickup: false
   weight: 500
-  loss: true

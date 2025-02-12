@@ -1,38 +1,38 @@
-name: BCW_CoreWood_PalisadeFence
+name: GB_Kingdom_Ale_Keg
 piecehammer: Hammer
-m_name: $bcw_corewood_palisadefence
+m_name: $GB_Kingdom_Ale_Keg
 sizeMultiplier: 1
-m_description: '<color=green>Reinforced'
+m_description: $GB_Kingdom_Ale_Keg_Description
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
 craftingStation: $piece_workbench
-piecehammerCategory: Misc
+piecehammerCategory: Kingdom III
 minStationLevel: 1
 amount: 1
-disabled: false
+disabled: true
 adminonly: false
 comfort: 
 groundPiece: false
 ground: false
 waterPiece: false
-noInWater: false
+noInWater: true
 notOnFloor: false
 onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
 notOnWood: false
 wearNTearData:
-  health: 1200
+  health: 1000
   damageModifiers:
-    m_blunt: Normal
-    m_slash: Normal
+    m_blunt: Resistant
+    m_slash: Resistant
     m_pierce: Resistant
-    m_chop: Weak
+    m_chop: Resistant
     m_pickaxe: Normal
-    m_fire: Normal
-    m_frost: Normal
+    m_fire: Immune
+    m_frost: Immune
     m_lightning: Normal
     m_poison: Immune
     m_spirit: Immune
@@ -40,6 +40,7 @@ wearNTearData:
   noSupportWear: true
   supports: true
   triggerPrivateArea: true
+  materialType: Wood
 craftingStationData: 
 cSExtensionData: 
 cSExtensionDataList: 
@@ -47,7 +48,13 @@ contData:
 smelterData: 
 cookingStationData: 
 beehiveData: 
-fermStationData: 
+fermStationData:
+  fermDuration: 1200
+  fermConversion:
+  - FromName: GB_Kingdom_Ale_Base
+    ToName: GB_Kingdom_Ale
+    Amount: 4
+    Remove: false
 sapData: 
 incineratorData: 
 fireplaceData: 
@@ -55,4 +62,5 @@ teleportWorldData:
 plantData: 
 shipData: 
 build:
-- RoundLog:8:1:True
+- Wood:10:1:True
+- IronNails:2:1:True

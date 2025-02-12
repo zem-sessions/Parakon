@@ -2,7 +2,7 @@ name: GB_Cloth_Bag
 piecehammer: Hammer
 m_name: $GB_Cloth_Bag
 sizeMultiplier: 1
-m_description: $GB_Cloth_Bag_Description
+m_description: '$GB_Cloth_Bag_Description\n<color=red>⚠️ Modded Storage Container</color>'
 customIcon: 
 clonePrefabName: 
 material: 
@@ -11,7 +11,7 @@ craftingStation: $piece_workbench
 piecehammerCategory: Kingdom III
 minStationLevel: 1
 amount: 1
-disabled: true
+disabled: false
 adminonly: false
 comfort: 
 groundPiece: false
@@ -60,4 +60,5 @@ teleportWorldData:
 plantData: 
 shipData: 
 build:
-- LeatherScraps:10:1:True
+- DeerHide:6:1:True
+- LeatherScraps:12:1:True

@@ -2,7 +2,7 @@ name: ValheimVehicles_WaterVehicleShip
 piecehammer: Hammer
 m_name: $valheim_vehicles_water_vehicle
 sizeMultiplier: 1
-m_description: 'Starting structure for ValheimRAFT. <color=orange>Please be aware that this mod is rather buggy; use at own risk/enjoyment!'
+m_description: 'Starting structure for ValheimRAFT. <color=orange>Please be aware that this mod is rather buggy; use at own risk/enjoyment. <color=red>Make sure you place a ladder!'
 customIcon: 
 clonePrefabName: 
 material: 

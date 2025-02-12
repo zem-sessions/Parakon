@@ -2,7 +2,7 @@ name: rae_iron_storage_small
 piecehammer: Hammer
 m_name: $rae_iron_storage_small
 sizeMultiplier: 1
-m_description: $rae_iron_storage_small_desc
+m_description: '$rae_iron_storage_small_desc\n<color=red>⚠️ Modded Storage Container</color>'
 customIcon: 
 clonePrefabName: 
 material: 
@@ -11,7 +11,7 @@ craftingStation: $piece_forge
 piecehammerCategory: Architect III
 minStationLevel: 1
 amount: 1
-disabled: true
+disabled: false
 adminonly: true
 comfort: 
 groundPiece: false
@@ -60,6 +60,5 @@ teleportWorldData:
 plantData: 
 shipData: 
 build:
-- Wood:10:0:True
-- FineWood:5:0:True
-- Iron:2:0:True
+- FineWood:10:1:True
+- Iron:1:1:True

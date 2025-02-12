@@ -24,7 +24,7 @@ allowedInDungeons: false
 canBeRemoved: true
 notOnWood: false
 wearNTearData:
-  health: 2500
+  health: 1200
   damageModifiers:
     m_blunt: Normal
     m_slash: Normal

@@ -1,9 +1,9 @@
 name: Recipe_FishingRod
 clonePrefabName: FishingRod
 craftingStation: $piece_workbench
-minStationLevel: 5
-maxStationLevelCap: 
-repairStation: 
+minStationLevel: 4
+maxStationLevelCap: 5
+repairStation: $piece_workbench
 amount: 1
 disabled: false
 disabledUpgrade: false

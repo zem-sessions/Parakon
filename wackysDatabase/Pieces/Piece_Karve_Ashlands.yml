@@ -1,10 +1,10 @@
-name: BCW_CoreWood_PalisadeFence
+name: Karve
 piecehammer: Hammer
-m_name: $bcw_corewood_palisadefence
-sizeMultiplier: 1
-m_description: '<color=green>Reinforced'
+m_name: 'Skul'
+sizeMultiplier: 1.5
+m_description: '<color=green>A standard Karve that has been outfitted travel in high heat environments'
 customIcon: 
-clonePrefabName: 
+clonePrefabName: Karve
 material: 
 damagedMaterial: 
 craftingStation: $piece_workbench
@@ -16,7 +16,7 @@ adminonly: false
 comfort: 
 groundPiece: false
 ground: false
-waterPiece: false
+waterPiece: true
 noInWater: false
 notOnFloor: false
 onlyinTeleportArea: false
@@ -24,22 +24,23 @@ allowedInDungeons: false
 canBeRemoved: true
 notOnWood: false
 wearNTearData:
-  health: 1200
+  health: 2000
   damageModifiers:
     m_blunt: Normal
     m_slash: Normal
     m_pierce: Resistant
-    m_chop: Weak
-    m_pickaxe: Normal
-    m_fire: Normal
-    m_frost: Normal
+    m_chop: Immune
+    m_pickaxe: Immune
+    m_fire: VeryResistant
+    m_frost: Resistant
     m_lightning: Normal
     m_poison: Immune
     m_spirit: Immune
   noRoofWear: false
-  noSupportWear: true
+  noSupportWear: false
   supports: true
   triggerPrivateArea: true
+  materialType: Wood
 craftingStationData: 
 cSExtensionData: 
 cSExtensionDataList: 
@@ -53,6 +54,10 @@ incineratorData:
 fireplaceData: 
 teleportWorldData: 
 plantData: 
-shipData: 
+shipData:
+  ashlandProof: true
 build:
-- RoundLog:8:1:True
+- FineWood:40:1:True
+- TrollHide:20:1:True
+- CeramicPlate:10:1:True
+- BronzeNails:80:1:True

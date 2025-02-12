@@ -2,7 +2,7 @@ name: GB_Small_Chest
 piecehammer: Hammer
 m_name: $GB_Small_Chest
 sizeMultiplier: 1
-m_description: $GB_Small_Chest_Description
+m_description: '$GB_Small_Chest_Description\n<color=red>⚠️ Modded Storage Container</color>'
 customIcon: 
 clonePrefabName: 
 material: 
@@ -11,7 +11,7 @@ craftingStation: $piece_workbench
 piecehammerCategory: Kingdom III
 minStationLevel: 1
 amount: 1
-disabled: true
+disabled: false
 adminonly: false
 comfort: 
 groundPiece: false
@@ -60,5 +60,5 @@ teleportWorldData:
 plantData: 
 shipData: 
 build:
-- Wood:8:1:True
+- Wood:20:1:True
 - Bronze:1:1:True

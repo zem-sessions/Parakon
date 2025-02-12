@@ -2,7 +2,7 @@ name: rae_bronze_storage_big
 piecehammer: Hammer
 m_name: $rae_bronze_storage_big
 sizeMultiplier: 1
-m_description: $rae_bronze_storage_big_desc
+m_description: '$rae_bronze_storage_big_desc\n<color=red>⚠️ Modded Storage Container</color>'
 customIcon: 
 clonePrefabName: 
 material: 
@@ -11,7 +11,7 @@ craftingStation: $piece_forge
 piecehammerCategory: Architect III
 minStationLevel: 1
 amount: 1
-disabled: true
+disabled: false
 adminonly: true
 comfort: 
 groundPiece: false
@@ -60,6 +60,5 @@ teleportWorldData:
 plantData: 
 shipData: 
 build:
-- Wood:15:0:True
-- FineWood:15:0:True
-- Bronze:4:0:True
+- FineWood:20:1:True
+- Bronze:4:1:True

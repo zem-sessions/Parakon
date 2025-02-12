@@ -2,7 +2,7 @@ name: GB_Small_Cupboard
 piecehammer: Hammer
 m_name: $GB_Small_Cupboard
 sizeMultiplier: 1
-m_description: $GB_Small_Cupboard_Description
+m_description: '$GB_Small_Cupboard_Description\n<color=red>⚠️ Modded Storage Container</color>'
 customIcon: 
 clonePrefabName: 
 material: 
@@ -11,7 +11,7 @@ craftingStation: $piece_workbench
 piecehammerCategory: Kingdom III
 minStationLevel: 1
 amount: 1
-disabled: true
+disabled: false
 adminonly: false
 comfort: 
 groundPiece: false
@@ -60,5 +60,5 @@ teleportWorldData:
 plantData: 
 shipData: 
 build:
-- FineWood:6:1:True
-- BronzeNails:2:1:True
+- FineWood:10:1:True
+- BronzeNails:3:1:True

@@ -2,8 +2,8 @@ name: Recipe_Hoe
 clonePrefabName: NO
 craftingStation: ''
 minStationLevel: 1
-maxStationLevelCap: 
-repairStation: 
+maxStationLevelCap: 3
+repairStation: $piece_workbench
 amount: 1
 disabled: false
 disabledUpgrade: false
