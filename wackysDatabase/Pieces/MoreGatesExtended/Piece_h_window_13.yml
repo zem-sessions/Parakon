@@ -1,14 +1,14 @@
-name: ValheimVehicles_WaterVehicleShip
+name: h_window_13
 piecehammer: Hammer
-m_name: $valheim_vehicles_water_vehicle
+m_name: $piece_mg_h_window_13
 sizeMultiplier: 1
-m_description: 'Starting structure for ValheimRAFT. <color=orange>Please be aware that this mod is rather buggy; use at own risk/enjoyment. <color=red>Make sure you place a ladder!'
+m_description: $piece_mg_h_window_13_desc
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation: ''
-piecehammerCategory: Raft
+craftingStation: $piece_workbench
+piecehammerCategory: Modded Misc.
 minStationLevel: 1
 amount: 1
 disabled: false
@@ -16,7 +16,7 @@ adminonly: false
 comfort: 
 groundPiece: false
 ground: false
-waterPiece: true
+waterPiece: false
 noInWater: false
 notOnFloor: false
 onlyinTeleportArea: false
@@ -24,23 +24,23 @@ allowedInDungeons: false
 canBeRemoved: true
 notOnWood: false
 wearNTearData:
-  health: 1500
+  health: 350
   damageModifiers:
     m_blunt: Normal
     m_slash: Normal
-    m_pierce: Normal
-    m_chop: Normal
+    m_pierce: Resistant
+    m_chop: Weak
     m_pickaxe: Normal
     m_fire: Normal
     m_frost: Normal
     m_lightning: Normal
-    m_poison: Normal
-    m_spirit: Normal
+    m_poison: Immune
+    m_spirit: Immune
   noRoofWear: true
   noSupportWear: true
   supports: true
   triggerPrivateArea: true
-  materialType: HardWood
+  materialType: Wood
 craftingStationData: 
 cSExtensionData: 
 cSExtensionDataList: 
@@ -56,4 +56,5 @@ teleportWorldData:
 plantData: 
 shipData: 
 build:
-- Wood:16:0:False
+- Wood:21:0:True
+- Crystal:1:0:True

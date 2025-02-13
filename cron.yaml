@@ -113,22 +113,22 @@ jobs:
   - command: zones_reset safeZones=4 biomes=Meadows start
     schedule: "0 6 */15 * *"
   #===BlackForest
-  - command: say Recycling... Meadows
+  - command: say Recycling... Black Forest
     schedule: "1 6 */15 * *"
   - command: zones_reset safeZones=4 biomes=BlackForest start
     schedule: "1 6 */15 * *"
   #===Ocean
-  - command: say Recycling... Ocean
+  - command: say Recycling... Oceans
     schedule: "2 6 */15 * *"
   - command: zones_reset safeZones=4 biomes=Ocean start
     schedule: "2 6 */15 * *"
   #===Swamp
-  - command: say Recycling... Swamp
+  - command: say Recycling... Swamps
     schedule: "3 6 */15 * *"
   - command: zones_reset safeZones=4 biomes=Swamp start
     schedule: "3 6 */15 * *"
   #===Mountain
-  - command: say Recycling... Mountain
+  - command: say Recycling... Mountains
     schedule: "4 6 */15 * *"
   - command: zones_reset safeZones=4 biomes=Mountain start
     schedule: "4 6 */15 * *"
@@ -156,18 +156,20 @@ zone:
   #Additional recycle to ensure ore nodes are replenished
   - command: vegetation_reset rock4_copper terrain=20 zone=<i>,<j> start
     schedule: "0 * */10 * *"
-    bannedObjects: rock4_copper
+    bannedObjects: rock4_copper,Thorward
     biomes: BlackForest
   - command: vegetation_reset silvervein terrain=20 zone=<i>,<j> start
     schedule: "1 * */10 * *"
-    bannedObjects: silvervein
+    bannedObjects: silvervein,Thorward
     biomes: Mountain
     #Additional recycle to generate new dungeons
   - command: locations_reset Crypt2,Crypt3,Crypt4,SunkenCrypt4,MountainCave02,Mistlands_DvergrTownEntrance1,Mistlands_DvergrTownEntrance2 zone=<i>,<j> start
     schedule: "0 * */15 * *"
     avoidPlayers: true
+    bannedObjects: Thorward
     locations: Crypt2,Crypt3,Crypt4,SunkenCrypt4,MountainCave02,Mistlands_DvergrTownEntrance1,Mistlands_DvergrTownEntrance2
   - command: locations_reset GoblinCamp2,TarPit1,TarPit2,TarPit3 zone=<i>,<j> start
     schedule: "0 * */15 * *"
     avoidPlayers: true
+    bannedObjects: Thorward
     locations: GoblinCamp2,TarPit1,TarPit2,TarPit3

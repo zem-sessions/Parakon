@@ -1,17 +1,17 @@
-name: MBSailCreator_3
+name: h_door_02
 piecehammer: Hammer
-m_name: $mb_sail
+m_name: $piece_mg_h_door_02
 sizeMultiplier: 1
-m_description: $mb_sail_3_desc
+m_description: $piece_mg_h_door_02_desc
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation: ''
-piecehammerCategory: Raft
+craftingStation: $piece_workbench
+piecehammerCategory: Modded Misc.
 minStationLevel: 1
 amount: 1
-disabled: true
+disabled: false
 adminonly: false
 comfort: 
 groundPiece: false
@@ -23,7 +23,24 @@ onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
 notOnWood: false
-wearNTearData: 
+wearNTearData:
+  health: 400
+  damageModifiers:
+    m_blunt: Normal
+    m_slash: Normal
+    m_pierce: Resistant
+    m_chop: Weak
+    m_pickaxe: Normal
+    m_fire: Normal
+    m_frost: Normal
+    m_lightning: Normal
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: true
+  noSupportWear: true
+  supports: true
+  triggerPrivateArea: true
+  materialType: Wood
 craftingStationData: 
 cSExtensionData: 
 cSExtensionDataList: 
@@ -38,4 +55,5 @@ fireplaceData:
 teleportWorldData: 
 plantData: 
 shipData: 
-build: []
+build:
+- Wood:6:0:True

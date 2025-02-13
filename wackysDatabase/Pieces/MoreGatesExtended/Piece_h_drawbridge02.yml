@@ -1,8 +1,8 @@
-name: BCW_CoreWood_FencePillar
+name: h_drawbridge02
 piecehammer: Hammer
-m_name: $bcw_corewood_fencepillar
+m_name: $piece_mg_h_drawbridge02
 sizeMultiplier: 1
-m_description: '<color=green>Reinforced'
+m_description: $piece_mg_h_drawbridge02_desc
 customIcon: 
 clonePrefabName: 
 material: 
@@ -24,22 +24,23 @@ allowedInDungeons: false
 canBeRemoved: true
 notOnWood: false
 wearNTearData:
-  health: 2000
+  health: 1500
   damageModifiers:
-    m_blunt: Normal
-    m_slash: Normal
+    m_blunt: VeryResistant
+    m_slash: VeryResistant
     m_pierce: Resistant
-    m_chop: Weak
-    m_pickaxe: Normal
-    m_fire: Normal
-    m_frost: Normal
-    m_lightning: Normal
+    m_chop: Normal
+    m_pickaxe: Immune
+    m_fire: Weak
+    m_frost: VeryResistant
+    m_lightning: VeryResistant
     m_poison: Immune
     m_spirit: Immune
-  noRoofWear: true
+  noRoofWear: false
   noSupportWear: true
   supports: true
   triggerPrivateArea: true
+  materialType: Wood
 craftingStationData: 
 cSExtensionData: 
 cSExtensionDataList: 
@@ -55,4 +56,6 @@ teleportWorldData:
 plantData: 
 shipData: 
 build:
-- RoundLog:1:1:True
+- Wood:55:0:True
+- Bronze:8:0:True
+- Chain:4:0:True

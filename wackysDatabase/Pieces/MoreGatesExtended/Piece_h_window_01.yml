@@ -1,8 +1,8 @@
-name: BCW_CoreWood_FencePillar
+name: h_window_01
 piecehammer: Hammer
-m_name: $bcw_corewood_fencepillar
+m_name: $piece_mg_h_window_01
 sizeMultiplier: 1
-m_description: '<color=green>Reinforced'
+m_description: $piece_mg_h_window_01_desc
 customIcon: 
 clonePrefabName: 
 material: 
@@ -24,7 +24,7 @@ allowedInDungeons: false
 canBeRemoved: true
 notOnWood: false
 wearNTearData:
-  health: 2000
+  health: 350
   damageModifiers:
     m_blunt: Normal
     m_slash: Normal
@@ -40,6 +40,7 @@ wearNTearData:
   noSupportWear: true
   supports: true
   triggerPrivateArea: true
+  materialType: Wood
 craftingStationData: 
 cSExtensionData: 
 cSExtensionDataList: 
@@ -55,4 +56,4 @@ teleportWorldData:
 plantData: 
 shipData: 
 build:
-- RoundLog:1:1:True
+- Wood:10:0:True
