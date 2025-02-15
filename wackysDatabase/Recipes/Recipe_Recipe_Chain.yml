@@ -1,8 +1,8 @@
 name: Recipe_Chain
 clonePrefabName: Chain
 craftingStation: $piece_forge
-minStationLevel: 4
-maxStationLevelCap: 
+minStationLevel: 7
+maxStationLevelCap: 7
 repairStation: 
 amount: 1
 disabled: false

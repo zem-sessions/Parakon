@@ -1,11 +1,11 @@
 name: Karve
 piecehammer: Hammer
-m_name: 'Skul'
-sizeMultiplier: 1.3
-m_description: '<color=green>A standard Karve that has been outfitted travel in high heat environments'
+m_name: $ship_karve
+sizeMultiplier: 1
+m_description: ''
 customIcon: 
-clonePrefabName: Karve
-material: ashlandshipsail_mat
+clonePrefabName: 
+material: 
 damagedMaterial: 
 craftingStation: $piece_workbench
 piecehammerCategory: Misc
@@ -21,17 +21,17 @@ noInWater: false
 notOnFloor: false
 onlyinTeleportArea: false
 allowedInDungeons: false
-canBeRemoved: true
+canBeRemoved: false
 notOnWood: false
 wearNTearData:
-  health: 2000
+  health: 500
   damageModifiers:
     m_blunt: Normal
     m_slash: Normal
     m_pierce: Resistant
     m_chop: Immune
     m_pickaxe: Immune
-    m_fire: VeryResistant
+    m_fire: Weak
     m_frost: Resistant
     m_lightning: Normal
     m_poison: Immune
@@ -55,9 +55,9 @@ fireplaceData:
 teleportWorldData: 
 plantData: 
 shipData:
-  ashlandProof: true
+  ashlandProof: false
 build:
-- YggdrasilWood:40:1:True
-- TrollHide:25:1:True
-- CeramicPlate:15:1:True
+- FineWood:30:1:True
+- DeerHide:10:1:True
+- Resin:20:1:True
 - BronzeNails:80:1:True

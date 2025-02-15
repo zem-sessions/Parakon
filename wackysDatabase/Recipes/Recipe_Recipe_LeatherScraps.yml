@@ -1,8 +1,8 @@
 name: Recipe_LeatherScraps
 clonePrefabName: LeatherScraps
 craftingStation: $piece_workbench
-minStationLevel: 2
-maxStationLevelCap: 
+minStationLevel: 4
+maxStationLevelCap: 4
 repairStation: 
 amount: 3
 disabled: false

@@ -2,12 +2,12 @@ name: piece_groundtorch_wood
 piecehammer: Hammer
 m_name: $piece_groundtorchwood
 sizeMultiplier: 1
-m_description: ''
+m_description: '<color=green>No longer requires workbench & can be placed within dungeons.</color>'
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation: $piece_workbench
+craftingStation: ''
 piecehammerCategory: Furniture
 minStationLevel: 1
 amount: 1
@@ -20,7 +20,7 @@ waterPiece: false
 noInWater: false
 notOnFloor: false
 onlyinTeleportArea: false
-allowedInDungeons: false
+allowedInDungeons: true
 canBeRemoved: true
 notOnWood: false
 wearNTearData:
@@ -53,7 +53,7 @@ sapData:
 incineratorData: 
 fireplaceData:
   StartFuel: 7
-  MaxFuel: 30
+  MaxFuel: 7
   SecPerFuel: 86400
   InfiniteFuel: false
   FuelType: Resin

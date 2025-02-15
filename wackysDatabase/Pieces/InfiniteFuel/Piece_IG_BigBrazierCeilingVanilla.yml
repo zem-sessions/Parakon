@@ -84,7 +84,7 @@ sapData:
 incineratorData: 
 fireplaceData:
   StartFuel: 7
-  MaxFuel: 30
+  MaxFuel: 7
   SecPerFuel: 86400
   InfiniteFuel: false
   FuelType: Coal
