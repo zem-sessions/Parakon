@@ -12,7 +12,7 @@ piecehammerCategory: Architect III
 minStationLevel: 1
 amount: 1
 disabled: false
-adminonly: true
+adminonly: false
 comfort: 
 groundPiece: false
 ground: false

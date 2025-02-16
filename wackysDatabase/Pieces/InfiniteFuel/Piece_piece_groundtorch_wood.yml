@@ -2,7 +2,7 @@ name: piece_groundtorch_wood
 piecehammer: Hammer
 m_name: $piece_groundtorchwood
 sizeMultiplier: 1
-m_description: '<color=green>No longer requires workbench & can be placed within dungeons.</color>'
+m_description: '<color=green>Can be placed without workbench.<color=orange> Lower durability.</color>'
 customIcon: 
 clonePrefabName: 
 material: 
@@ -24,7 +24,7 @@ allowedInDungeons: true
 canBeRemoved: true
 notOnWood: false
 wearNTearData:
-  health: 100
+  health: 25
   damageModifiers:
     m_blunt: Normal
     m_slash: Weak
@@ -39,7 +39,7 @@ wearNTearData:
   noRoofWear: false
   noSupportWear: true
   supports: false
-  triggerPrivateArea: true
+  triggerPrivateArea: false
   materialType: Wood
 craftingStationData: 
 cSExtensionData: 
@@ -52,7 +52,7 @@ fermStationData:
 sapData: 
 incineratorData: 
 fireplaceData:
-  StartFuel: 7
+  StartFuel: 1
   MaxFuel: 7
   SecPerFuel: 86400
   InfiniteFuel: false
@@ -65,4 +65,4 @@ plantData:
 shipData: 
 build:
 - Wood:2:1:True
-- Resin:2:1:False
+- Resin:2:0:False

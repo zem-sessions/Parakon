@@ -210,6 +210,7 @@ gFoodComponent:
   
 gFoodProduct:
   stack: 20
+  weight factor: 0.66
 #---
 #enable feb 21st
 TrophyDragonQueen:
