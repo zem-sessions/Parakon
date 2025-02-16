@@ -2,7 +2,7 @@ name: piece_chest_wooden_drawer
 piecehammer: Hammer
 m_name: $piece_mpwoodendrawer
 sizeMultiplier: 1
-m_description: '$piece_mpwoodendrawer_description\n<color=red>⚠️ Modded Storage Container</color>'
+m_description: '$piece_mpwoodendrawer_description (4x6)\n<color=red>⚠️ <color=orange>Modded Storage Container (MissingPieces)</color>'
 customIcon: 
 clonePrefabName: 
 material: 
@@ -45,8 +45,6 @@ craftingStationData:
 cSExtensionData: 
 cSExtensionDataList: 
 contData:
-  Width: 6
-  Height: 4
   CheckWard: true
   AutoDestoryIfEmpty: false
 smelterData: 

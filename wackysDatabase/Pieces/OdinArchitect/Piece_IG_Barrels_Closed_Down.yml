@@ -2,13 +2,13 @@ name: IG_Barrels_Closed_Down
 piecehammer: Hammer
 m_name: $IG_Barrels_Closed_Down
 sizeMultiplier: 1
-m_description: '$IG_Barrels_Closed_Down_desc\n<color=red>⚠️ Modded Storage Container</color>'
+m_description: '$IG_Barrels_Closed_Down_desc (3x6)\n<color=red>⚠️ <color=orange>Modded Storage Container (OdinArchitech)</color>'
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
 craftingStation: $piece_workbench
-piecehammerCategory: Architect III
+piecehammerCategory: Furniture
 minStationLevel: 1
 amount: 1
 disabled: false
@@ -45,8 +45,6 @@ craftingStationData:
 cSExtensionData: 
 cSExtensionDataList: 
 contData:
-  Width: 6
-  Height: 3
   CheckWard: true
   AutoDestoryIfEmpty: false
 smelterData: 

@@ -164,12 +164,12 @@ zone:
     biomes: Mountain
     #Additional recycle to generate new dungeons
   - command: locations_reset Crypt2,Crypt3,Crypt4,SunkenCrypt4,MountainCave02,Mistlands_DvergrTownEntrance1,Mistlands_DvergrTownEntrance2 zone=<i>,<j> start
-    schedule: "0 * */15 * *"
+    schedule: "0 * */10 * *"
     avoidPlayers: true
     bannedObjects: Thorward
     locations: Crypt2,Crypt3,Crypt4,SunkenCrypt4,MountainCave02,Mistlands_DvergrTownEntrance1,Mistlands_DvergrTownEntrance2
   - command: locations_reset GoblinCamp2,TarPit1,TarPit2,TarPit3 zone=<i>,<j> start
-    schedule: "0 * */15 * *"
+    schedule: "0 * */10 * *"
     avoidPlayers: true
     bannedObjects: Thorward
     locations: GoblinCamp2,TarPit1,TarPit2,TarPit3

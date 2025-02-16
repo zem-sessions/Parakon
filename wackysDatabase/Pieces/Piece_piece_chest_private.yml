@@ -1,13 +1,13 @@
-name: rae_iron_storage_big
+name: piece_chest_private
 piecehammer: Hammer
-m_name: $rae_iron_storage_big
+m_name: $piece_chestprivate
 sizeMultiplier: 1
-m_description: '$rae_iron_storage_big_desc (4x7)\n<color=red>⚠️ <color=orange>Modded Storage Container (OdinArchitech)</color>'
+m_description: '(3x3)'
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation: $piece_forge
+craftingStation: $piece_workbench
 piecehammerCategory: Furniture
 minStationLevel: 1
 amount: 1
@@ -17,35 +17,37 @@ comfort:
 groundPiece: false
 ground: false
 waterPiece: false
-noInWater: false
+noInWater: true
 notOnFloor: false
 onlyinTeleportArea: false
-allowedInDungeons: true
+allowedInDungeons: false
 canBeRemoved: true
 notOnWood: false
 wearNTearData:
-  health: 400
+  health: 10000
   damageModifiers:
-    m_blunt: Normal
-    m_slash: Normal
+    m_blunt: Resistant
+    m_slash: Resistant
     m_pierce: Resistant
-    m_chop: Weak
-    m_pickaxe: Normal
-    m_fire: Normal
-    m_frost: Normal
+    m_chop: Resistant
+    m_pickaxe: Resistant
+    m_fire: Resistant
+    m_frost: Resistant
     m_lightning: Normal
     m_poison: Immune
     m_spirit: Immune
-  noRoofWear: true
+  noRoofWear: false
   noSupportWear: true
-  supports: true
+  supports: false
   triggerPrivateArea: true
   materialType: Wood
 craftingStationData: 
 cSExtensionData: 
 cSExtensionDataList: 
 contData:
-  CheckWard: true
+  Width: 3
+  Height: 2
+  CheckWard: false
   AutoDestoryIfEmpty: false
 smelterData: 
 cookingStationData: 
@@ -58,5 +60,5 @@ teleportWorldData:
 plantData: 
 shipData: 
 build:
-- FineWood:20:1:True
-- Iron:4:1:True
+- FineWood:10:1:True
+- Iron:8:1:True

@@ -2,13 +2,13 @@ name: GB_Cloth_Bag
 piecehammer: Hammer
 m_name: $GB_Cloth_Bag
 sizeMultiplier: 1
-m_description: '$GB_Cloth_Bag_Description\n<color=red>⚠️ Modded Storage Container</color>'
+m_description: '$GB_Cloth_Bag_Description (3x4)\n<color=red>⚠️ <color=orange>Modded Storage Container (OdinKingdom)</color>'
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
 craftingStation: $piece_workbench
-piecehammerCategory: Kingdom III
+piecehammerCategory: Furniture
 minStationLevel: 1
 amount: 1
 disabled: false
@@ -45,8 +45,6 @@ craftingStationData:
 cSExtensionData: 
 cSExtensionDataList: 
 contData:
-  Width: 4
-  Height: 3
   CheckWard: true
   AutoDestoryIfEmpty: false
 smelterData: 

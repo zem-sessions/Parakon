@@ -2,13 +2,13 @@ name: rae_bronze_storage_small
 piecehammer: Hammer
 m_name: $rae_bronze_storage_small
 sizeMultiplier: 1
-m_description: '$rae_bronze_storage_small_desc\n<color=red>⚠️ Modded Storage Container</color>'
+m_description: '$rae_bronze_storage_small_desc (3x6)\n<color=red>⚠️ <color=orange>Modded Storage Container (OdinArchitech)</color>'
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
 craftingStation: $piece_forge
-piecehammerCategory: Architect III
+piecehammerCategory: Furniture
 minStationLevel: 1
 amount: 1
 disabled: false
@@ -45,8 +45,6 @@ craftingStationData:
 cSExtensionData: 
 cSExtensionDataList: 
 contData:
-  Width: 6
-  Height: 3
   CheckWard: true
   AutoDestoryIfEmpty: false
 smelterData: 
