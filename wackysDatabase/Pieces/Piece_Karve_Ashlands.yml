@@ -1,0 +1,63 @@
+name: Karve_Ashlands
+piecehammer: Hammer
+m_name: 'Skul'
+sizeMultiplier: 1.3
+m_description: '<color=green>A karve that has been outfitted for Ashlands travel.</color>'
+customIcon: 
+clonePrefabName: Karve
+material: ashlandsship_mat
+damagedMaterial: 
+craftingStation: $piece_workbench
+piecehammerCategory: Misc
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: true
+noInWater: false
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+notOnWood: false
+wearNTearData:
+  health: 2000
+  damageModifiers:
+    m_blunt: Normal
+    m_slash: Normal
+    m_pierce: Resistant
+    m_chop: Immune
+    m_pickaxe: Immune
+    m_fire: VeryResistant
+    m_frost: Resistant
+    m_lightning: Normal
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: false
+  noSupportWear: false
+  supports: true
+  triggerPrivateArea: true
+  materialType: Wood
+craftingStationData: 
+cSExtensionData: 
+cSExtensionDataList: 
+contData: 
+smelterData: 
+cookingStationData: 
+beehiveData: 
+fermStationData: 
+sapData: 
+incineratorData: 
+fireplaceData: 
+teleportWorldData: 
+plantData: 
+shipData:
+  ashlandProof: true
+build:
+- FineWood:30:1:True
+- YggdrasilWood:20:1:True
+- CeramicPlate:20:1:True
+- IronNails:80:1:True

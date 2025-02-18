@@ -1,0 +1,16 @@
+name: Recipe_QueenBee
+clonePrefabName: QueenBee
+craftingStation: $piece_workbench
+minStationLevel: 4
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- Dandelion:20:1:True
+- TrophyEikthyr:2:1:True
+- TrophyGreydwarfBrute:2:1:True
+- TrophyGreydwarfShaman:2:1:True

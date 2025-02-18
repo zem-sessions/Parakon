@@ -163,13 +163,22 @@ zone:
     bannedObjects: silvervein,Thorward
     biomes: Mountain
     #Additional recycle to generate new dungeons
-  - command: locations_reset Crypt2,Crypt3,Crypt4,SunkenCrypt4,MountainCave02,Mistlands_DvergrTownEntrance1,Mistlands_DvergrTownEntrance2 zone=<i>,<j> start
+    #---BlackForest/Swamp
+  - command: locations_reset Crypt2,Crypt3,Crypt4,SunkenCrypt4 zone=<i>,<j> start
     schedule: "0 * */10 * *"
     avoidPlayers: true
-    bannedObjects: Thorward
-    locations: Crypt2,Crypt3,Crypt4,SunkenCrypt4,MountainCave02,Mistlands_DvergrTownEntrance1,Mistlands_DvergrTownEntrance2
-  - command: locations_reset GoblinCamp2,TarPit1,TarPit2,TarPit3 zone=<i>,<j> start
+    bannedObjects: Thorward,player_tombstone
+    locations: Crypt2,Crypt3,Crypt4,SunkenCrypt4
+    #---Mountains/Plains
+  - command: locations_reset MountainCave02,GoblinCamp2,TarPit1,TarPit2,TarPit3,StoneTower1,StoneTower3 zone=<i>,<j> start
     schedule: "0 * */10 * *"
     avoidPlayers: true
-    bannedObjects: Thorward
-    locations: GoblinCamp2,TarPit1,TarPit2,TarPit3
+    bannedObjects: Thorward,player_tombstone
+    locations: MountainCave02,GoblinCamp2,TarPit1,TarPit2,TarPit3,StoneTower1,StoneTower3
+    #---Mistlands
+  - command: locations_reset Mistlands_GuardTower1_ruined_new2,Mistlands_GuardTower3_new,Mistlands_GuardTower3_ruined_new,Mistlands_GuardTower1_new,Mistlands_GuardTower2_new,Mistlands_GuardTower1_ruined_new,Mistlands_Lighthouse1_new,Mistlands_Excavation1,Mistlands_Excavation2,Mistlands_Excavation3,Mistlands_DvergrTownEntrance1,Mistlands_DvergrTownEntrance2,Mistlands_Harbour1,Mistlands_Viaduct1,Mistlands_Viaduct2 zone=<i>,<j> start
+    schedule: "0 * */10 * *"
+    avoidPlayers: true
+    bannedObjects: Thorward,player_tombstone,dverger_guardstone
+    locations: Mistlands_GuardTower1_ruined_new2,Mistlands_GuardTower3_new,Mistlands_GuardTower3_ruined_new,Mistlands_GuardTower1_new,Mistlands_GuardTower2_new,Mistlands_GuardTower1_ruined_new,Mistlands_Lighthouse1_new,Mistlands_Excavation1,Mistlands_Excavation2,Mistlands_Excavation3,Mistlands_DvergrTownEntrance1,Mistlands_DvergrTownEntrance2,Mistlands_Harbour1,Mistlands_Viaduct1,Mistlands_Viaduct2
+
