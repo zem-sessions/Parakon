@@ -1,0 +1,16 @@
+name: Recipe_GoblinTotem
+clonePrefabName: GoblinTotem
+craftingStation: $piece_artisanstation
+minStationLevel: 1
+maxStationLevelCap:
+repairStation: 
+amount: 3
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- Tar:6:0:True
+- Flint:10:0:True
+- TrophyGoblinBrute:1:0:True
+- TrophyGoblinShaman:1:0:True

@@ -214,11 +214,11 @@ gFoodProduct:
 #---
 #enable feb 21st
 TrophyDragonQueen:
-  amount: 0
-  weight: 500
+  amount: 1
+  weight: 1
 TrophyGoblinKing:
-  amount: 0
-  weight: 500
+  amount: 1
+  weight: 1
 #enable mar 7
 TrophySeekerQueen:
   amount: 0

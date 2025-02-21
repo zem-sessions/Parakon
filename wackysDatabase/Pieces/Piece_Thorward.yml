@@ -2,41 +2,18 @@ name: Thorward
 piecehammer: Hammer
 m_name: $piece_thorward
 sizeMultiplier: 1
-m_description: '$piece_thorward_description\n<color=green>Decreases structure damage by 66%'
+m_description: 'Protective structure that ensures your area is safe from bad actors. Limit: 300.\n<color=green>Reduces structure damage by half.\n<color=orange>Prevents location/world regeneration.</color>'
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation: $piece_workbench
+craftingStation:
 piecehammerCategory: Misc
 minStationLevel: 1
 amount: 1
 disabled: false
 adminonly: false
 comfort:
-  comfort: 2
-  comfortGroup: Fire
-  comfortObject: &o0
-    transform: []
-    layer: 0
-    active: false
-    activeSelf: false
-    activeInHierarchy: false
-    isStatic: false
-    tag: Untagged
-    scene:
-      handle: 0
-      path: 
-      name: 
-      isLoaded: false
-      buildIndex: -1
-      isDirty: false
-      rootCount: 0
-      isSubScene: true
-    sceneCullingMask: 16140901064495857664
-    gameObject: *o0
-    name: Burning
-    hideFlags: None
 groundPiece: false
 ground: false
 waterPiece: false
@@ -49,14 +26,14 @@ notOnWood: false
 wearNTearData:
   health: 5000
   damageModifiers:
-    m_blunt: Normal
-    m_slash: Normal
+    m_blunt: Resistant
+    m_slash: Resistant
     m_pierce: Resistant
-    m_chop: Ignore
-    m_pickaxe: Ignore
-    m_fire: Normal
+    m_chop: Resistant
+    m_pickaxe: Resistant
+    m_fire: Resistant
     m_frost: Resistant
-    m_lightning: Normal
+    m_lightning: Resistant
     m_poison: Immune
     m_spirit: Immune
   noRoofWear: false
@@ -79,6 +56,6 @@ teleportWorldData:
 plantData: 
 shipData: 
 build:
-- FineWood:5:1:True
+- FineWood:10:1:True
 - GreydwarfEye:5:1:True
 - SurtlingCore:1:1:True

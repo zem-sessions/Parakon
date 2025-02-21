@@ -1,7 +1,7 @@
 name: Karve
 piecehammer: Hammer
 m_name: $ship_karve
-sizeMultiplier: 1
+sizeMultiplier: 0.9
 m_description: ''
 customIcon: 
 clonePrefabName: 
