@@ -11,6 +11,6 @@ requireOnlyOneIngredient: false
 upgrade_reqs: []
 reqs:
 - Dandelion:12:1:True
-- Coins:1000:1:True:2:1:True
-- TrophyGreydwarfBrute:2:1:True
-- TrophyGreydwarfShaman:2:1:True
+- Coins:1000:1:True
+- TrophyGreydwarfBrute:1:1:True
+- TrophyGreydwarfShaman:1:1:True

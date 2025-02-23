@@ -4,25 +4,25 @@ interval: 10
 discordConnector: false
 jobs:
   #Restart the server every other morning @ ~4am.
-  - command: broadcast center <color=red>Warning - Reserver Restart in 5 Minutes!</color>
+  - command: broadcast center <color=red>Warning - Server Restart in 5 Minutes!</color>
     schedule: "55 3 */2 * *"
-  - command: say Warning - Reserver Restart in 5 Minutes!
+  - command: say Warning - Server Restart in 5 Minutes!
     schedule: "55 3 */2 * *"
-  - command: broadcast center <color=red>Warning - Reserver Restart in 4 Minutes!</color>
+  - command: broadcast center <color=red>Warning - Server Restart in 4 Minutes!</color>
     schedule: "56 3 */2 * *"
-  - command: say Warning - Reserver Restart in 4 Minutes!
+  - command: say Warning - Server Restart in 4 Minutes!
     schedule: "56 3 */2 * *"
-  - command: broadcast center <color=red>Warning - Reserver Restart in 3 Minutes!</color>
+  - command: broadcast center <color=red>Warning - Server Restart in 3 Minutes!</color>
     schedule: "57 3 */2 * *"
-  - command: say Warning - Reserver Restart in 3 Minutes!
+  - command: say Warning - Server Restart in 3 Minutes!
     schedule: "57 3 */2 * *"
-  - command: broadcast center <color=red>Warning - Reserver Restart in 2 Minutes!</color>
+  - command: broadcast center <color=red>Warning - Server Restart in 2 Minutes!</color>
     schedule: "58 3 */2 * *"
-  - command: say Warning - Reserver Restart in 2 Minutes!
+  - command: say Warning - Server Restart in 2 Minutes!
     schedule: "58 3 */2 * *"
-  - command: broadcast center <color=red>Warning - Reserver Restart in 1 Minutes!</color>
+  - command: broadcast center <color=red>Warning - Server Restart in 1 Minutes!</color>
     schedule: "59 3 */2 * *"
-  - command: say Warning - Reserver Restart in 1 Minutes!
+  - command: say Warning - Server Restart in 1 Minutes!
     schedule: "59 3 */2 * *"
   - command: save
     schedule: "59 3 */2 * *"
@@ -80,7 +80,6 @@ jobs:
     schedule: "23 5 */7 * 1"
   - command: say Notice - ♻ Chest Refill Complete ♻
     schedule: "23 5 */7 * 1"
-
   #Recycle the world
   - command: broadcast center <color=red>♻ World Recycling ♻ in 5 Minutes!</color>
     schedule: "55 5 */14 * *"
@@ -151,47 +150,19 @@ jobs:
     schedule: "8 6 */14 * *"
 zone:
   #Additional recycle to ensure ore nodes are replenished
-  - command: vegetation_reset rock4_copper terrain=20 safeZones=0 biomes=BlackForest zone=<i>,<j> start
-    schedule: "5 * */7 * *"
-    bannedObjects: rock4_copper,Thorward,dverger_guardstone
-    biomes: BlackForest
-  - command: vegetation_reset silvervein terrain=20 safeZones=0 biomes=Mountain zone=<i>,<j> start
-    schedule: "15 * */7 * *"
-    bannedObjects: silvervein,Thorward,dverger_guardstone,portal_wood
-    biomes: Mountain
+  - command: vegetation_reset rock4_copper,silvervein terrain=20 safeZones=0 zone=<i>,<j> start
+    schedule: "0 * */7 * *"
+    bannedObjects: rock4_copper,silvervein,Thorward,dverger_guardstone
+    biomes: BlackForest,Mountain
     #Additional recycle to generate new dungeons
     #---BlackForest
-  - command: locations_reset Crypt2,Crypt3,Crypt4 safeZones=1 biomes=BlackForest zone=<i>,<j> start
-    schedule: "10 * */7 * *"
+  - command: locations_reset Crypt2,Crypt3,Crypt4,SunkenCrypt4,MountainCave02,GoblinCamp2,TarPit1,TarPit2,TarPit3,StoneTower1,StoneTower3,Mistlands_Giant1,Mistlands_GuardTower1_ruined_new2,Mistlands_GuardTower3_new,Mistlands_GuardTower3_ruined_new,Mistlands_GuardTower1_new,Mistlands_GuardTower2_new,Mistlands_GuardTower1_ruined_new,Mistlands_Lighthouse1_new,Mistlands_Excavation1,Mistlands_Excavation2,Mistlands_Excavation3,Mistlands_DvergrTownEntrance1,Mistlands_DvergrTownEntrance2,Mistlands_Harbour1,Mistlands_Viaduct1,Mistlands_Viaduct2 safeZones=1 zone=<i>,<j> start
+    schedule: "0 * */7 * *"
     avoidPlayers: true
-    bannedObjects: Thorward,player_tombstone,dverger_guardstone,portal_wood
-    locations: Crypt2,Crypt3,Crypt4
-    #---Swamp
-  - command: locations_reset SunkenCrypt4 safeZones=1 biomes=Swamp zone=<i>,<j> start
-    schedule: "20 * */7 * *"
+    bannedObjects: Player,Thorward,player_tombstone,dverger_guardstone,portal_wood
+    locations: Crypt2,Crypt3,Crypt4,SunkenCrypt4,MountainCave02,GoblinCamp2,TarPit1,TarPit2,TarPit3,StoneTower1,StoneTower3,Mistlands_Giant1,Mistlands_GuardTower1_ruined_new2,Mistlands_GuardTower3_new,Mistlands_GuardTower3_ruined_new,Mistlands_GuardTower1_new,Mistlands_GuardTower2_new,Mistlands_GuardTower1_ruined_new,Mistlands_Lighthouse1_new,Mistlands_Excavation1,Mistlands_Excavation2,Mistlands_Excavation3,Mistlands_DvergrTownEntrance1,Mistlands_DvergrTownEntrance2,Mistlands_Harbour1,Mistlands_Viaduct1,Mistlands_Viaduct2
+  - command: locations_reset WoodHouse1,WoodHouse2,WoodHouse3,WoodHouse4,WoodHouse5,WoodHouse6,WoodHouse7,WoodHouse8,WoodHouse9,WoodHouse10,WoodHouse11,WoodHouse12,WoodHouse13 safeZones=1 zone=<i>,<j> start
+    schedule: "0 * */7 * *"
     avoidPlayers: true
-    bannedObjects: Thorward,player_tombstone,dverger_guardstone,portal_wood
-    locations: SunkenCrypt4
-    #---Mountains
-  - command: locations_reset MountainCave02 safeZones=1 biomes=Mountain zone=<i>,<j> start
-    schedule: "30 * */7 * *"
-    avoidPlayers: true
-    bannedObjects: Thorward,player_tombstone,dverger_guardstone,portal_wood
-    locations: MountainCave02
-    #---Plains
-  - command: locations_reset GoblinCamp2,TarPit1,TarPit2,TarPit3,StoneTower1,StoneTower3 safeZones=1 biomes=Plains zone=<i>,<j> start
-    schedule: "40 * */7 * *"
-    avoidPlayers: true
-    bannedObjects: Thorward,player_tombstone,dverger_guardstone,portal_wood
-    locations: GoblinCamp2,TarPit1,TarPit2,TarPit3,StoneTower1,StoneTower3
-    #---Mistlands
-  - command: locations_reset Mistlands_Giant1,Mistlands_GuardTower1_ruined_new2,Mistlands_GuardTower3_new,Mistlands_GuardTower3_ruined_new,Mistlands_GuardTower1_new,Mistlands_GuardTower2_new,Mistlands_GuardTower1_ruined_new safeZones=1 biomes=Mistlands zone=<i>,<j> start
-    schedule: "50 * */7 * *"
-    avoidPlayers: true
-    bannedObjects: Thorward,player_tombstone,dverger_guardstone,portal_wood
-    locations: Mistlands_Giant1,Mistlands_GuardTower1_ruined_new2,Mistlands_GuardTower3_new,Mistlands_GuardTower3_ruined_new,Mistlands_GuardTower1_new,Mistlands_GuardTower2_new,Mistlands_GuardTower1_ruined_new
-  - command: locations_reset Mistlands_Lighthouse1_new,Mistlands_Excavation1,Mistlands_Excavation2,Mistlands_Excavation3,Mistlands_DvergrTownEntrance1,Mistlands_DvergrTownEntrance2,Mistlands_Harbour1,Mistlands_Viaduct1,Mistlands_Viaduct2 safeZones=1biomes=Mistlands zone=<i>,<j> start
-    schedule: "55 * */7 * *"
-    avoidPlayers: true
-    bannedObjects: Thorward,player_tombstone,dverger_guardstone,portal_wood
-    locations: Mistlands_Lighthouse1_new,Mistlands_Excavation1,Mistlands_Excavation2,Mistlands_Excavation3,Mistlands_DvergrTownEntrance1,Mistlands_DvergrTownEntrance2,Mistlands_Harbour1,Mistlands_Viaduct1,Mistlands_Viaduct2
+    bannedObjects: Player,Thorward,player_tombstone,dverger_guardstone,portal_wood
+    locations: WoodHouse1,WoodHouse2,WoodHouse3,WoodHouse4,WoodHouse5,WoodHouse6,WoodHouse7,WoodHouse8,WoodHouse9,WoodHouse10,WoodHouse11,WoodHouse12,WoodHouse13

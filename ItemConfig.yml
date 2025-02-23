@@ -19,6 +19,7 @@
   - MeadBaseSwimmer
   - MeadBaseTamer
   - MeadBaseTasty
+  - BarleyWineBase
   gMeadProduct:
   - MeadBugRepellent
   - MeadBzerker
@@ -40,6 +41,7 @@
   - MeadTamer
   - MeadTasty
   - MeadTrollPheromones
+  - BarleyWine
   gFoodComponent:
   - Blueberries
   - Cloudberry

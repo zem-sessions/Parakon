@@ -10,6 +10,7 @@ groups:
   Reflect Vanilla:
     - Abomination
     - Blob
+    - Bat
     - Deathsquito
     - Drake
     - Fenring
@@ -26,6 +27,11 @@ groups:
     - Fallen Valkyrie
     - Bonemaw
     - Volture
+    - Skeleton_Hildir
+    - Fenring_Cultist_Hildir
+    - GoblinBruteBros
+    - GoblinShaman_Hildir
+    - GoblinBrute_Hildir
   Post Eikthyr:
     - Greydwarf
   Post Elder:
