@@ -1,0 +1,16 @@
+name: Recipe_BellFragment
+clonePrefabName: BellFragment
+craftingStation: $piece_artisanstation
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 2
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- CharredBone:10:1:True
+- TrophyCharredMelee:1:1:True
+- TrophyCharredArcher:1:1:True
+- TrophyCharredMage:1:1:True

@@ -1,8 +1,8 @@
 name: Recipe_ATM_Shovel
-clonePrefabName: NO
+clonePrefabName: ATM_Shovel
 craftingStation: $piece_forge
-minStationLevel: 1
-maxStationLevelCap: 3
+minStationLevel: 7
+maxStationLevelCap:
 repairStation: $piece_forge
 amount: 1
 disabled: false
@@ -11,4 +11,4 @@ requireOnlyOneIngredient: false
 upgrade_reqs: []
 reqs:
 - RoundLog:3:1:False
-- Bronze:10:5:False
+- BlackMetal:10:5:False

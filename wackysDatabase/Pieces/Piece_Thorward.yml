@@ -2,12 +2,12 @@ name: Thorward
 piecehammer: Hammer
 m_name: $piece_thorward
 sizeMultiplier: 1
-m_description: 'Protective structure that ensures your area is safe from bad actors. Limit: 300.\n<color=green>Reduces structure damage by half.\n<color=orange>Prevents location/world regeneration.</color>'
+m_description: 'Protective structure that reserves and protects the area around it. Limit: 50.\n<color=green>Reduces structure damage by half.\n<color=orange>Prevents location recycling.</color>'
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation:
+craftingStation: $piece_workbench
 piecehammerCategory: Misc
 minStationLevel: 1
 amount: 1

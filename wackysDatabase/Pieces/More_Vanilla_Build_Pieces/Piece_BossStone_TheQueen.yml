@@ -1,0 +1,43 @@
+name: BossStone_TheQueen
+piecehammer: Hammer
+m_name: The Queen
+sizeMultiplier: 1
+m_description: $guardianstone_name
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: $piece_stonecutter
+piecehammerCategory: Misc
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: false
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+notOnWood: false
+wearNTearData: 
+craftingStationData: 
+cSExtensionData: 
+cSExtensionDataList: 
+contData: 
+smelterData: 
+cookingStationData: 
+beehiveData: 
+fermStationData: 
+sapData: 
+incineratorData: 
+fireplaceData: 
+teleportWorldData: 
+plantData: 
+shipData: 
+build:
+- Stone:200:1:True
+- TrophySeekerQueen:1:1:True

@@ -2,7 +2,7 @@ name: blastfurnace
 piecehammer: Hammer
 m_name: $piece_blastfurnace
 sizeMultiplier: 1
-m_description: ''
+m_description: '<color=green>Able to smelt scraps & ores from the </color>Smelter<color=green>!'
 customIcon: 
 clonePrefabName: 
 material: 
@@ -49,8 +49,8 @@ smelterData:
   emptyOreTooltip: $piece_smelter_empty
   fuelItem:
     name: Coal
-  maxOre: 15
-  maxFuel: 30
+  maxOre: 30
+  maxFuel: 60
   fuelPerProduct: 2
   secPerProduct: 30
   spawnStack: false

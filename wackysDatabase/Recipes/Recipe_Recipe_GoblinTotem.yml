@@ -10,7 +10,7 @@ disabledUpgrade: false
 requireOnlyOneIngredient: false
 upgrade_reqs: []
 reqs:
-- Tar:6:0:True
-- Flint:10:0:True
+- Tar:10:0:True
+- TrophyGoblin:1:0:True
 - TrophyGoblinBrute:1:0:True
 - TrophyGoblinShaman:1:0:True

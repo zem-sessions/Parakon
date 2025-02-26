@@ -1,5 +1,5 @@
 name: Recipe_VDS_AtlantianCrown
-clonePrefabName: NO
+clonePrefabName: VDS_AtlantianCrown
 craftingStation: $piece_workbench
 minStationLevel: 1
 maxStationLevelCap: 

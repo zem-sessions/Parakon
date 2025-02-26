@@ -2,7 +2,7 @@ name: Karve_Ashlands
 piecehammer: Hammer
 m_name: 'Skul'
 sizeMultiplier: 1.3
-m_description: '<color=green>A karve that has been outfitted for Ashlands travel.</color>'
+m_description: 'A karve that has been outfitted for Ashlands travel.'
 customIcon: 
 clonePrefabName: Karve
 material: ashlandsship_mat

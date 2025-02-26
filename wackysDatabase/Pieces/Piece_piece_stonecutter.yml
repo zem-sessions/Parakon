@@ -44,7 +44,7 @@ wearNTearData:
 craftingStationData:
   cStationCustomIcon: 
   discoveryRange: 4
-  buildRange: 20
+  buildRange: 50
   craftRequiresRoof: false
   craftRequiresFire: false
   showBasicRecipes: false
@@ -65,5 +65,5 @@ plantData:
 shipData: 
 build:
 - Wood:10:1:True
-- Iron:2:1:True
+- Bronze:2:1:True
 - Stone:4:1:True

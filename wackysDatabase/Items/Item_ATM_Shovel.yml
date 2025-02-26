@@ -1,6 +1,6 @@
 name: ATM_Shovel
 m_weight: 2
-m_name: Shovel
+m_name: 'Dvergr Shovel'
 m_description: '$item_hoe_description\n<color=green>Great for removing dirt while mining ores!</color>'
 clonePrefabName: 
 mockName: 
