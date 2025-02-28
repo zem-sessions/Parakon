@@ -167,7 +167,7 @@ zone:
   - command: locations_reset Greydwarf_camp1,WoodHouse1,WoodHouse2,WoodHouse3,WoodHouse4,WoodHouse5,WoodHouse6,WoodHouse7,WoodHouse8,WoodHouse9,WoodHouse10,WoodHouse11,WoodHouse12,WoodHouse13,GoblinCamp2,TarPit1,TarPit2,TarPit3,StoneTower1,StoneTower3 safeZones=1 zone=<i>,<j> start
     schedule: "0 5 */7 * *"
     avoidPlayers: true
-    bannedObjects: Player,Thorward,player_tombstone,dverger_guardstone,portal_wood,portal,portal_stone
+    bannedObjects: Player,Thorward,player_tombstone,dverger_guardstone,portal_wood,portal,portal_stone,piece_workbench
     locations: Greydwarf_camp1,WoodHouse1,WoodHouse2,WoodHouse3,WoodHouse4,WoodHouse5,WoodHouse6,WoodHouse7,WoodHouse8,WoodHouse9,WoodHouse10,WoodHouse11,WoodHouse12,WoodHouse13,GoblinCamp2,TarPit1,TarPit2,TarPit3,StoneTower1,StoneTower3
 
   #Reset key locations

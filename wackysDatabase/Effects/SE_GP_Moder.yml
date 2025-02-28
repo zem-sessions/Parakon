@@ -32,7 +32,7 @@ StartEffect_PLUS:
   m_scale: false
   m_childTransform: ''
 StopEffect_PLUS: []
-Cooldown: 900
+Cooldown: 300
 ActivationAnimation: gpower
 SeData:
   m_tickInterval: 0

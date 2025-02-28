@@ -74,6 +74,9 @@ Post Yagluth:
     Black Forest:
       Override:
         amount: 0
+    Swamp:
+      Override:
+        amount: 0
 
 #Tick, Seeker
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
@@ -85,6 +88,9 @@ Post Queen:
     Black Forest:
       Override:
         amount: 0
+    Swamp:
+      Override:
+        amount: 0
 
 #Charred Fuckers
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
@@ -94,6 +100,9 @@ Post Fader:
       Override:
         amount: 0
     Black Forest:
+      Override:
+        amount: 0
+    Swamp:
       Override:
         amount: 0
 

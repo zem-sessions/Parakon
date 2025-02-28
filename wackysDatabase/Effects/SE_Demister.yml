@@ -6,7 +6,7 @@ ClonedSE:
 CustomIcon: 
 FlashIcon: false
 CooldownIcon: false
-Tooltip: '$item_demister_description<color=green> Increased Carry Weight.</color>'
+Tooltip: ''
 Attributes: None
 StartMessageLoc: Center
 StartMessage: $se_demister_start
@@ -28,7 +28,7 @@ SeData:
   m_healthPerTick: 0
   m_healthOverTime: 0
   m_healthOverTimeDuration: 0
-  m_healthOverTimeInterval: 0
+  m_healthOverTimeInterval: 5
   m_staminaOverTime: 0
   m_staminaOverTimeDuration: 0
   m_staminaDrainPerSec: 0
@@ -36,9 +36,9 @@ SeData:
   m_jumpStaminaUseModifier: 0
   m_eitrOverTime: 0
   m_eitrOverTimeDuration: 0
-  m_healthRegenMultiplier: 0
-  m_staminaRegenMultiplier: 0
-  m_eitrRegenMultiplier: 0
+  m_healthRegenMultiplier: 1
+  m_staminaRegenMultiplier: 1
+  m_eitrRegenMultiplier: 1
   m_raiseSkill: None
   m_raiseSkillModifier: 0
   m_skillLevel: None
@@ -47,7 +47,7 @@ SeData:
   m_skillLevelModifier2: 0
   m_mods: 
   m_modifyAttackSkill: None
-  m_damageModifier: 0
+  m_damageModifier: 1
   m_noiseModifier: 0
   m_stealthModifier: 0
   m_addMaxCarryWeight: 50

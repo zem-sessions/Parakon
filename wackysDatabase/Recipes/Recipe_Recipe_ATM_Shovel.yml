@@ -1,5 +1,5 @@
 name: Recipe_ATM_Shovel
-clonePrefabName: ATM_Shovel
+clonePrefabName: NO
 craftingStation: $piece_forge
 minStationLevel: 7
 maxStationLevelCap:
