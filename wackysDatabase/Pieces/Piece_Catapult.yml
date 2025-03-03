@@ -1,13 +1,13 @@
-name: portal
+name: Catapult
 piecehammer: Hammer
-m_name: Portal - Dvergr
+m_name: $tool_catapult
 sizeMultiplier: 1
-m_description: $piece_portal_stone_description
+m_description: ''
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation: $piece_stonecutter
+craftingStation: $piece_workbench
 piecehammerCategory: Misc
 minStationLevel: 1
 amount: 1
@@ -20,27 +20,27 @@ waterPiece: false
 noInWater: false
 notOnFloor: false
 onlyinTeleportArea: false
-allowedInDungeons: true
+allowedInDungeons: false
 canBeRemoved: true
 notOnWood: false
 wearNTearData:
-  health: 1500
+  health: 3000
   damageModifiers:
-    m_blunt: Resistant
-    m_slash: Resistant
+    m_blunt: Normal
+    m_slash: Normal
     m_pierce: Resistant
-    m_chop: Resistant
+    m_chop: Normal
     m_pickaxe: Normal
-    m_fire: Immune
-    m_frost: Immune
-    m_lightning: Resistant
+    m_fire: VeryResistant
+    m_frost: Resistant
+    m_lightning: Normal
     m_poison: Immune
     m_spirit: Immune
   noRoofWear: false
-  noSupportWear: true
-  supports: true
+  noSupportWear: false
+  supports: false
   triggerPrivateArea: true
-  materialType: Stone
+  materialType: Wood
 craftingStationData: 
 cSExtensionData: 
 cSExtensionDataList: 
@@ -52,11 +52,10 @@ fermStationData:
 sapData: 
 incineratorData: 
 fireplaceData: 
-teleportWorldData:
-  AllowAllItems: true
+teleportWorldData: 
 plantData: 
 shipData: 
 build:
-- GreydwarfEye:10:1:True
-- BlackMarble:30:1:True
-- BlackCore:2:1:True
+- Blackwood:20:1:True
+- FlametalNew:10:1:True
+- CharredCogwheel:1:1:True

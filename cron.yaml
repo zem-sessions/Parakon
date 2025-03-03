@@ -29,57 +29,57 @@ jobs:
 
   #Refresh Chests
   - command: broadcast center <color=orange>♻ Chest Refill Beginning ♻</color>
-    schedule: "0 5 */7 * 1"
+    schedule: "0 5 */5 * 1"
   - command: say ♻ Chest Refill Beginning ♻
-    schedule: "0 5 */7 * 1"
+    schedule: "0 5 */5 * 1"
   - command: chests_reset TreasureChest_meadows looted
-    schedule: "1 5 */7 * *"
+    schedule: "1 5 */5 * *"
   - command: chests_reset TreasureChest_meadows_buried looted
-    schedule: "2 5 */7 * *"
+    schedule: "2 5 */5 * *"
   - command: chests_reset TreasureChest_blackforest looted
-    schedule: "3 5 */7 * *"
+    schedule: "3 5 */5 * *"
   - command: chests_reset TreasureChest_fCrypt looted
-    schedule: "4 5 */7 * *"
+    schedule: "4 5 */5 * *"
   - command: chests_reset TreasureChest_forestcrypt looted
-    schedule: "5 5 */7 * *"
+    schedule: "5 5 */5 * *"
   - command: chests_reset TreasureChest_forestcrypt_hildir looted
-    schedule: "6 5 */7 * *"
+    schedule: "6 5 */5 * *"
   - command: chests_reset TreasureChest_trollcave looted
-    schedule: "7 5 */7 * *"
+    schedule: "7 5 */5 * *"
   - command: chests_reset shipwreck_karve_chest looted
-    schedule: "8 5 */7 * *"
+    schedule: "8 5 */5 * *"
   - command: chests_reset TreasureChest_sunkencrypt looted
-    schedule: "9 5 */7 * *"
+    schedule: "9 5 */5 * *"
   - command: chests_reset TreasureChest_swamp looted
-    schedule: "10 5 */7 * *"
+    schedule: "10 5 */5 * *"
   - command: chests_reset TreasureChest_mountaincave looted
-    schedule: "11 5 */7 * *"
+    schedule: "11 5 */5 * *"
   - command: chests_reset TreasureChest_mountaincave_hildir looted
-    schedule: "12 5 */7 * *"
+    schedule: "12 5 */5 * *"
   - command: chests_reset TreasureChest_mountains looted
-    schedule: "13 5 */7 * *"
+    schedule: "13 5 */5 * *"
   - command: chests_reset TreasureChest_heath looted
-    schedule: "14 5 */7 * *"
+    schedule: "14 5 */5 * *"
   - command: chests_reset TreasureChest_heath_hildir looted
-    schedule: "15 5 */7 * *"
+    schedule: "15 5 */5 * *"
   - command: chests_reset TreasureChest_plains_stone looted
-    schedule: "16 5 */7 * *"
+    schedule: "16 5 */5 * *"
   - command: chests_reset TreasureChest_plainsfortress_hildir looted
-    schedule: "17 5 */7 * *"
+    schedule: "17 5 */5 * *"
   - command: chests_reset TreasureChest_dvergr_loose_stone looted
-    schedule: "18 5 */7 * *"
+    schedule: "18 5 */5 * *"
   - command: chests_reset TreasureChest_dvergrtower looted
-    schedule: "19 5 */7 * *"
+    schedule: "19 5 */5 * *"
   - command: chests_reset TreasureChest_dvergrtown looted
-    schedule: "20 5 */7 * *"
+    schedule: "20 5 */5 * *"
   - command: chests_reset TreasureChest_ashland_stone looted
-    schedule: "21 5 */7 * *"
+    schedule: "21 5 */5 * *"
   - command: chests_reset TreasureChest_charredfortress looted
-    schedule: "22 5 */7 * *"
+    schedule: "22 5 */5 * *"
   - command: broadcast center <color=orange>Notice - ♻ Chest Refill Complete ♻</color>
-    schedule: "23 5 */7 * 1"
+    schedule: "23 5 */5 * 1"
   - command: say Notice - ♻ Chest Refill Complete ♻
-    schedule: "23 5 */7 * 1"
+    schedule: "23 5 */5 * 1"
 
   #Recycle the world
   - command: broadcast center <color=red>♻ World Recycling ♻ in 5 Minutes!</color>
@@ -165,21 +165,21 @@ zone:
 
   #Reset lower-priority locations
   - command: locations_reset Greydwarf_camp1,WoodHouse1,WoodHouse2,WoodHouse3,WoodHouse4,WoodHouse5,WoodHouse6,WoodHouse7,WoodHouse8,WoodHouse9,WoodHouse10,WoodHouse11,WoodHouse12,WoodHouse13,GoblinCamp2,TarPit1,TarPit2,TarPit3,StoneTower1,StoneTower3 safeZones=1 zone=<i>,<j> start
-    schedule: "0 5 */7 * *"
+    schedule: "0 5 */5 * *"
     avoidPlayers: true
     bannedObjects: Player,Thorward,player_tombstone,dverger_guardstone,portal_wood,portal,portal_stone,piece_workbench
     locations: Greydwarf_camp1,WoodHouse1,WoodHouse2,WoodHouse3,WoodHouse4,WoodHouse5,WoodHouse6,WoodHouse7,WoodHouse8,WoodHouse9,WoodHouse10,WoodHouse11,WoodHouse12,WoodHouse13,GoblinCamp2,TarPit1,TarPit2,TarPit3,StoneTower1,StoneTower3
 
   #Reset key locations
-  - command: locations_reset Eikthyrnir,Dragonqueen,Hildir_cave,Hildir_crypt,Hildir_plainsfortress,GoblinKing,GDKing,Bonemass safeZones=1 zone=<i>,<j> start
-    schedule: "0 5 */7 * *"
+  - command: locations_reset Eikthyrnir,Dragonqueen,Hildir_cave,Hildir_crypt,Hildir_plainsfortress,GoblinKing,GDKing,Bonemass,Mistlands_DvergrBossEntrance1 safeZones=1 zone=<i>,<j> start
+    schedule: "0 5 */5 * *"
     avoidPlayers: true
     bannedObjects: Player,Thorward,player_tombstone,dverger_guardstone,portal_wood,portal,portal_stone
-    locations: Eikthyrnir,Dragonqueen,Hildir_cave,Hildir_crypt,Hildir_plainsfortress,GoblinKing,GDKing,Bonemass
+    locations: Eikthyrnir,Dragonqueen,Hildir_cave,Hildir_crypt,Hildir_plainsfortress,GoblinKing,GDKing,Bonemass,Mistlands_DvergrBossEntrance1
 
   #mistlands reset, because there are lots.
   - command: locations_reset Mistlands_Giant1,Mistlands_GuardTower1_ruined_new2,Mistlands_GuardTower3_new,Mistlands_GuardTower3_ruined_new,Mistlands_GuardTower1_new,Mistlands_GuardTower2_new,Mistlands_GuardTower1_ruined_new,Mistlands_Lighthouse1_new,Mistlands_Excavation1,Mistlands_Excavation2,Mistlands_Excavation3,Mistlands_Harbour1,Mistlands_Viaduct1,Mistlands_Viaduct2 safeZones=1 zone=<i>,<j> start
-    schedule: "0 5 */7 * *"
+    schedule: "0 5 */5 * *"
     avoidPlayers: true
     bannedObjects: Player,Thorward,player_tombstone,dverger_guardstone,portal_wood,portal,portal_stone
     locations: Mistlands_Giant1,Mistlands_GuardTower1_ruined_new2,Mistlands_GuardTower3_new,Mistlands_GuardTower3_ruined_new,Mistlands_GuardTower1_new,Mistlands_GuardTower2_new,Mistlands_GuardTower1_ruined_new,Mistlands_Lighthouse1_new,Mistlands_Excavation1,Mistlands_Excavation2,Mistlands_Excavation3,Mistlands_Harbour1,Mistlands_Viaduct1,Mistlands_Viaduct2
